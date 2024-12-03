@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 20px;
+}
+
+input, textarea {
+  width: 20%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 10px 0;
+}

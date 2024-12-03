@@ -1,0 +1,25 @@
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 columns, each taking equal width */
+    gap: 20px;  /* Space between the boxes */
+    padding: 20px;
+  }
+  
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .blog-post input,
+.blog-post textarea {
+  display: block; /* Makes the elements stack vertically */
+  margin-bottom: 10px; /* Adds space between input fields */
+  width: 90%; /* Ensures they take full width of the container */
+  padding: 8px; /* Adds some padding for better appearance */
+  font-size: 16px;
+}
+
+.blog-post textarea {
+  height: 100px; /* Set a height for the textarea */
+}
